@@ -1,0 +1,89 @@
+div{
+  width:800px;
+  height: 800px;
+  background-color:#BDB78B;
+  margin:auto;
+  padding: 20px;
+}
+
+/*  background-image: linear-gradient(40deg,red 0%,purple 100%);-- degradat*/
+/* fichas:background-image: radial-gradient(red 0%,red 50%,blue 50%,blue 100%);*/
+
+p{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin:0;
+  float: left;
+}
+
+.parell{
+  background-color: white;
+}
+
+.imparell{
+  background-color: Black;
+}
+
+a{
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: white;
+  margin: 10px;
+  background-image: radial-gradient(#191919 2%, #191919   50%, black 100%);
+}
+
+b{
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: white;
+  margin: 10px;
+  background-image: radial-gradient(white 2%, white 50%, Black 100%);
+}
+
+b:hover{
+  position: relative;
+  top:100px;
+}
+
+.imparell b {
+  background-image: radial-gradient(blue 2%, blue 50%, Black 100%);
+}
+
+
+/* -------- TEORIA: PSEUDO-CLASSES---------
+
+Etiquetes -------> elements genèrics p.ex <div>
+Classes ---------> elements classificats en subgrups p.ex .imparell
+ID---------------> elements identificats de forma única p.ex #reib
+
+Pseudo classes ---------> estats dels elements p.ex
+            :hover Quan passem per sobre
+            :visited Quan l'hem visitat
+            :active Quan estem fent click
+            :focus Quan esra selecionat
+            :checked Quan esta "checkat"
+
+            :first-child Primer element
+            :last-child Ùltim element
+            :nth-child Element N
+                              N=1
+                              N=2 <
+                              N=3
+                              ...
+                              N=infinit
+
+
+                              p.ex:
+                              tots els elements parells: 2n
+
+
+                      A   B   C   D   E   F   G...
+                n     1   2   3   4   5   6   7...
+                2n        X       X       X
+                3n            X           X
+                2n*1  X       X       X       X       */
