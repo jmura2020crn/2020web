@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <style media="screen">
     /*Disseny si la pantalla és més petita que 960px*/
-      @media screen and (max-width:393px) and (orientation: portrait) {
+      @media screen and (min-width:393px) and (orientation: portrait) {
       body {
         background-color: yellow;}
       }
-      @media screen and (min-width:393px) and (orientation: portrait) {
+      @media screen and (max-width:824px) and (orientation: landscape) {
       body {
         background-color: purple;}
       }
     /*Disseny si la pantalla és més gran que 960px*/
-      @media screen and (min-width:824px) and (orientation: landscape) {
+      @media screen and (max-width:1280px) and (orientation: landscape) {
       body {
         background-color: pink;}
       }
