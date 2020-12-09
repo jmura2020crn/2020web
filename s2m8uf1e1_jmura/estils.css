@@ -1,0 +1,145 @@
+body{
+  background-color: #222;
+}
+/*------------BARRA MENÚ-------------*/
+.barra{
+  /*---color---*/
+  background-color:black;
+  /*---tamany---*/
+  width: 2560px;
+  height:50px;
+  /*---posició---*/
+  margin: auto;
+  top:0;
+  left: 0;
+  position: fixed;
+
+}
+.logo{
+float: left;
+margin:20px;
+margin-top:10px;
+margin-bottom:5px;
+
+}
+#dreta{
+margin: auto;
+padding-right: 1000px;
+float: left;
+}
+
+#esquerre{
+margin: auto;
+float: left;
+
+
+}
+
+li{
+  display: inline-block;
+  font-family: helvetica;
+  font-size: 18px;
+  padding-top: 15px;
+  margin:5px;
+  color: #FFF;
+}
+
+/*------------TITOL SECCIÓ-------------*/
+
+.titol{
+  height: 60px;
+  padding-top: 25px;
+  padding-bottom: 0;
+  padding-left: 10px;
+  font-size: 22px;
+  font-family: helvetica;
+  color:#FFF;
+  float: left;
+}
+
+/*------------CARTELERA-------------*/
+.cartelera{
+  float:left;
+  width: auto;
+}
+
+#cartell{
+  float: left;
+  width: 175px;
+  height: 322px;
+  padding: 10px;
+
+}
+#cartell:hover{
+  opacity: 0.5;
+}
+
+/*------------DINS CASELLA-------------*/
+h2{
+  color: #CCC;
+  font-family: helvetica;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.imatge{
+  border-radius: 5px;
+}
+.any{
+  color: #CCC;
+  font-family: helvetica;
+  font-size: 11px;
+  font-weight: bold;
+  float: left;
+  margin-bottom: 0;
+}
+.documental{
+  color: #CCC;
+  font-family: helvetica;
+  font-size: 11px;
+  font-weight: bold;
+  float: right;
+
+}
+/*------------PENDENTS-------------*/
+.pendents{
+  float: left;
+}
+/*------------VISTES-------------*/
+.vistes{
+  float: left;
+}
+/*------------SEGUINT-------------*/
+.seguint{
+  float: left;
+}
+/*------------SERIES-------------*/
+.series{
+  float: left;
+}
+
+.gray{
+  background-color: gray;
+  width: 175px;
+  height: 300px;
+}
+.red{
+  background-color: red;
+  width: 175px;
+  height: 300px;
+}
+.yellow{
+  background-color: yellow;
+  width: 175px;
+  height: 300px;
+}
+.green{
+  background-color: green;
+  width: 175px;
+  height: 300px;
+}
+
+.cartelera2{
+    float:left;
+    width: 200px;
+}

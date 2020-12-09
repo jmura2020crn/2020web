@@ -1,0 +1,209 @@
+body{
+  background-color: #f0f0f0;
+}
+
+.desaparecer{
+  width: 1700px;
+  height:120px;
+  /*---posició---*/
+  margin-left:40px;
+  margin-bottom: 0px;
+  top:0;
+  position: fixed;
+  float: left;
+  /*------------*/
+  padding:8px 60px 15px;
+  background-image: linear-gradient(90deg, #f0f0f0 10%, #f0f0f0 90%, transparent 95%);
+
+}
+
+#retulo{
+  width: 1700px;
+  height:18px;
+  /*---posició---*/
+  margin-left:40px;
+  margin-bottom: 0px;
+  /*------------*/
+  padding:8px 60px 15px;
+  border: #14141f 2.5px solid;
+  top:0;
+  position: fixed;
+
+}
+
+
+/*---Letras---*/
+#retulo p{
+  font-weight: 1200;
+  font-family: raleway;
+  font-size: 14pt;
+  color: #14141f;
+  margin-top: 0;
+  letter-spacing: 5px;
+  background-color:#f0f0f0 ;
+  padding: 0;
+
+}
+
+h1{
+  font-family: raleway;
+  font-size: 14pt;
+  letter-spacing: 5px;
+  margin-left: 80px;
+  margin-top: 200px;
+}
+
+.calamar{
+  float: left;
+  position:fixed;
+  margin-left: 40px;
+  background-color: 0;
+}
+
+.minombre{
+  float: left;
+  position:fixed;
+  margin-top: 200px;
+  margin-left: 25px;
+  background-color: 0;
+}
+
+/*----Menú central----*/
+#menu{
+  padding: 100px;
+  padding-top: 0;
+  width: 70%;
+  margin: 0 auto;
+  background-color: ;
+}
+
+/*----Menú casillas----*/
+li {
+  width: 11rem;
+  height: 9rem;
+  padding: 16px;
+  float: left;
+  font-family: raleway;
+  font-weight: bold;
+  color: #000d1a;
+  border: #14141f 2px solid;
+  background-color: white;
+  overflow: auto;
+}
+li:hover{
+  background-color: #dddb00;
+}
+
+/*----Div A i B----*/
+.a{
+  background-color: ;
+  height: 300px;
+  padding: 40px;
+}
+
+.b{
+  background-color:  ;
+  height: 400px;
+  padding: 40px;
+  padding-top: 0;
+}
+
+/*----Casillas por separado A----*/
+#a00{
+  width: 400px;
+  height: 150px;
+  font-style: bold;
+  border-right: 0;
+}
+
+#a01{
+  width: 700px;
+  height: 150px;
+  font-style: bold;
+}
+
+#a02{
+  width: 300px;
+  height: 150px;
+  float: left;
+  font-style: bold;
+  border-top: 0;
+  border-right: 0;
+}
+
+#a03a{
+  width: 100px;
+  height: 150px;
+  font-style: bold;
+  border-top: 0;
+}
+
+#a03b{
+  width: 100px;
+  height: 150px;
+  font-style: bold;
+  border-top: 0;
+  border-left: 0;
+}
+
+#a03c{
+  width: 100px;
+  height: 150px;
+  font-style: bold;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+#a04{
+  width: 398px;
+  height: 150px;
+  font-style: bold;
+  border-top: 0;
+}
+
+/*----Casillas por separado B----*/
+#b01{
+  width: 100px;
+  height: 150px;
+  font-style: bold;
+  border-right: 0;
+}
+#b02{
+  width: 700px;
+  height: 150px;
+  border-right: 0;
+  font-style: bold;
+}
+#b03{
+  width: 265px;
+  height: 150px;
+  font-style: bold;
+}
+#b04{
+  width: 400px;
+  height: 150px;
+  font-style: bold;
+  border-top: 0;
+}
+#b05{
+  width: 100px;
+  height: 150px;
+  font-style: bold;
+  border-top: 0;
+  border-left: 0;
+}
+#b06{
+  width: 100px;
+  height: 150px;
+  font-style: bold;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+#b07{
+  width: 431px;
+  height: 150px;
+  font-style: bold;
+  border-top: 0;
+}
